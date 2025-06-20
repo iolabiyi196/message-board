@@ -68,6 +68,10 @@ button {
     margin-top: 30px;
 }
 
+#clear {
+    background-color: red
+}
+
 section {
     width: 95%;
     margin: 10px auto;
@@ -85,4 +89,38 @@ ul {
 
 li {
     margin: 10px 0;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        width: 100%;
+        border: none;
+        padding: 0 5px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    form, section {
+        width: 100%;
+    }
+
+    label, input, textarea {
+        font-size: 1.2em;
+    }
+
+    button {
+        font-size: 1.2em;
+        padding: 8px;
+        width: 75%;
+        margin: 0 12.5%;
+    }
+
+    ul {
+        list-style-type: disc;
+        padding-left: 0;
+        margin: 2px 5%;
+    }
+    
 }

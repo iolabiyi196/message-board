@@ -4,31 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main>
       <h1>Message Board</h1>
-      <hr>
-      <form action="post">
+      <hr />
+      <form>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        <br>
+        <input type="text" id="name" name="name" required />
+        <br />
         <label for="message">Message:</label>
-        <textarea type="text" id="message" name="messsage" required rows="5"></textarea>
-        <button type="submit">Submit</button>
+        <textarea
+          type="text"
+          id="message"
+          name="messsage"
+          required
+          rows="5"
+        ></textarea>
+        <button type="submit" id="submit">Submit</button>
       </form>
-      <hr>
-      <br>
+      <hr />
+      <br />
       <section class="message-list">
         <h2>Messages:</h2>
         <ul class="messages-list">
-            <li>John: I am a man Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quia sit voluptate quibusdam placeat veniam dignissimos corrupti quasi! Dolore ipsam tenetur voluptas illum sint atque nihil totam sed repellendus aliquid?</li>
-            <li>John: I am a man</li>
-            <li>John: I am a man</li>
-            <li>John: I am a man</li>
+          <li>
+            John: I am a man Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Eaque quia sit voluptate quibusdam placeat veniam dignissimos
+            corrupti quasi! Dolore ipsam tenetur voluptas illum sint atque nihil
+            totam sed repellendus aliquid?
+          </li>
+          <li>John: I am a man</li>
+          <li>John: I am a man</li>
+          <li>John: I am a man</li>
         </ul>
+        <button type="submit" id="clear">Clear</button>
       </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
